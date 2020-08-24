@@ -6,9 +6,9 @@ import os
 import time
 
 # Test on tensorflow example for generating Shakesperian text
-web_page = 'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt'
+wp = 'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt'
 
-path_to_file = tf.keras.utils.get_file('shakespeare.txt', web_page)
+path_to_file = tf.keras.utils.get_file('shakespeare.txt', wp)
 
 # Read the data
 # Read then decode for py2 compat
@@ -167,8 +167,10 @@ checkpoint_dir = './training_checkpoints'
 # Name of the checkpoint files
 checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt_{epoch}")
 
-checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_prefix,
-                                                         save_weights_only=True)
+checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
+                                         filepath=checkpoint_prefix,
+                                         save_weights_only=True
+                                         )
 
 # Execute the Training
 EPOCHS = 10
@@ -214,7 +216,9 @@ def generate_text(model, start_string):
         # Using a categorical distribution to predict the character returned
         # by the Model
         predictions = predictions/temperature
-        predicted_id = tf.random.categorical(predictions, num_samples=1)[-1,0].numpy()
+        predicted_id = tf.random.categorical(predictions,
+                                             num_samples=1
+                                             )[-1, 0].numpy()
 
         # We pass the predicted character as the next input to the Model
         # along with the previous hidden state
@@ -226,3 +230,50 @@ def generate_text(model, start_string):
 
 
 print(generate_text(model, start_string=u"ROMEO: "))
+
+# Customized training
+model = build_model(vocab_size=len(vocab), embedding_dim=embedding_dim,
+                    rnn_units=rnn_units, batch_size=1)
+
+optimizer = tf.keras.optimizers.Adam()
+
+
+@tf.function
+def train_step(inp, target):
+    with tf.GradientTape() as tape:
+        predictions = model(inp)
+        loss = tf.reduce_mean(
+            tf.keras.losses.sparse_categorical_crossentropy(
+                target, predictions, from_logits=True))
+    grads = tape.gradient(loss, model.trainable_variables)
+    optimizer.apply_gradients(zip(grads, model.trainable_variables))
+
+    return loss
+
+
+# Training Step
+EPOCHS = 10
+
+for epoch in range(EPOCHS):
+    start = time.time()
+
+    # Resetting the hidden state at the start of every epoch
+    model.reset_states()
+
+    for (batch_n, (inp, target)) in enumerate(dataset):
+        loss = train_step(inp, target)
+
+        if batch_n % 100 == 0:
+            template = 'Epoch {} Batch {} Loss {}'
+            print(template.format(epoch+1, batch_n, loss))
+
+    # Saving (checkpoint) the model every 5 epochs
+    if (epoch + 1) % 5 == 0:
+        model.save_weights(checkpoint_prefix.format(epoch=epoch))
+
+    print('Epoch {} Loss {:.4f}'.format(epoch+1, loss))
+    print('Time taken for 1 epoch {} sec\n'.format(time.time() - start))
+
+model.save_weights(checkpoint_prefix.format(epoch=epoch))
+
+print(generate_text(model, start_string=u'JULIET: '))
