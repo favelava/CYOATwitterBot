@@ -5,7 +5,6 @@ import numpy as np
 import os
 import time
 
-
 # Test on tensorflow example for generating Shakesperian text
 web_page = 'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt'
 
@@ -134,3 +133,96 @@ for input_example_batch, target_example_batch in dataset.take(1):
           "# (batch_size, sequence_length, vocab_size)")
 
 model.summary()
+
+sampled_indices = tf.random.categorical(example_batch_predictions[0],
+                                        num_samples=1)
+sampled_indices = tf.squeeze(sampled_indices, axis=-1).numpy()
+
+print("Input: \n", repr("".join(idx2char[input_example_batch[0]])))
+print()
+print("Next Char Predicitions: \n", repr("".join(idx2char[sampled_indices])))
+
+
+# Train the model
+# Attach an optimizer and a loss function
+def loss(labels, logits):
+    return tf.keras.losses.sparse_categorical_crossentropy(labels,
+                                                           logits,
+                                                           from_logits=True)
+
+
+example_batch_loss = loss(target_example_batch,
+                          example_batch_predictions)
+
+print("Predicition shape: ", example_batch_predictions.shape,
+      " # (batch_size, sequence_length, vocab_size)")
+print("Scalar_Loss:       ", example_batch_loss.numpy().mean())
+
+model.compile(optimizer='adam', loss=loss)
+
+# Configure Checkpoints
+# Directory where the Checkpoints will be saved
+checkpoint_dir = './training_checkpoints'
+
+# Name of the checkpoint files
+checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt_{epoch}")
+
+checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_prefix,
+                                                         save_weights_only=True)
+
+# Execute the Training
+EPOCHS = 10
+history = model.fit(dataset, epochs=EPOCHS, callbacks=[checkpoint_callback])
+
+# Generate Text
+tf.train.latest_checkpoint(checkpoint_dir)
+
+model = build_model(vocab_size, embedding_dim, rnn_units, batch_size=1)
+
+model.load_weights(tf.train.latest_checkpoint(checkpoint_dir))
+
+model.build(tf.TensorShape([1, None]))
+
+model.summary()
+
+
+def generate_text(model, start_string):
+    # Evaluation Step (generating text using the learned model)
+
+    # Number of characters to generate
+    num_generate = 1000
+
+    # Converting our start string to numbers (vectorizing)
+    input_eval = [char2idx[s] for s in start_string]
+    input_eval = tf.expand_dims(input_eval, 0)
+
+    # Empty string to store our results
+    text_generated = []
+
+    # Low temperatures result in more predictable text
+    # Higher temperatures result in more surprising text
+    # Experiment to find the best setting
+    temperature = 1.0
+
+    # Here batch_size = 1
+    model.reset_states()
+    for i in range(num_generate):
+        predictions = model(input_eval)
+        # remove the batch dimension
+        predictions = tf.squeeze(predictions, 0)
+
+        # Using a categorical distribution to predict the character returned
+        # by the Model
+        predictions = predictions/temperature
+        predicted_id = tf.random.categorical(predictions, num_samples=1)[-1,0].numpy()
+
+        # We pass the predicted character as the next input to the Model
+        # along with the previous hidden state
+        input_eval = tf.expand_dims([predicted_id], 0)
+
+        text_generated.append(idx2char[predicted_id])
+
+    return (start_string + ''.join(text_generated))
+
+
+print(generate_text(model, start_string=u"ROMEO: "))

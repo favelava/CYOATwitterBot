@@ -1,3 +1,11 @@
 # Virtual Environment #
-######################
+#######################
 env/
+
+# Checkpoints for TestTF #
+##########################
+training_checkpoints/
+
+# Twitter API Keys #
+####################
+Twitter API Keys.txt
