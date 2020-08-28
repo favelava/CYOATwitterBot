@@ -12,3 +12,36 @@ Bourbon Old Fashioned
 2 ounces bourbon
 Garnish: orange peel
 end
+Gimlet
+2 1/2 ounces gin
+1/2 ounce fresh lime juice
+1/2 ounce simple syrup
+Garnish: lime wheel
+end
+Blue Hawaii
+3/4 ounce vodka
+3/4 ounce light rum
+1/2 ounce blue curaï¿½ao
+3 ounces pineapple juice
+1 ounce sweet-and-sour mix
+Garnish: pineapple wedge
+Garnish: cocktail umbrella
+end
+Mojito
+3 mint leaves
+2 ounces white rum
+3/4 ounce fresh lime juice
+1/2 ounce simple syrup
+club soda, to top
+Garnish: mint sprig
+Garnish: lime wheel
+end
+Mai Tai
+1 1/2 ounces white rum
+3/4 ounce orange curaçao
+3/4 ounce fresh lime juice
+1/2 ounce orgeat
+1/2 ounce dark rum
+Garnish: lime wheel
+Garnish: mint sprig
+end

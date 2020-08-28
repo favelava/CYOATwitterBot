@@ -6,6 +6,10 @@ env/
 ##########################
 training_checkpoints/
 
+# URLs to Tasty Looking Recipes #
+################################
+RecipesToAdd.txt
+
 # Twitter API Keys #
 ####################
 Twitter API Keys.txt
