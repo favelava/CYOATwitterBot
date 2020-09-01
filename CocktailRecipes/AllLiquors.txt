@@ -1,7 +1,7 @@
 Tequila Sunrise
-2 ounces blanco tequila
-4 ounces orange juice, freshly squeezed
-1/4 ounce grenadine
+2 oz blanco tequila
+4 oz orange juice, freshly squeezed
+1/4 oz grenadine
 Garnish: orange slice
 Garnish: cherry
 end
@@ -9,39 +9,567 @@ Bourbon Old Fashioned
 1/2 teaspoon sugar
 3 dashes Angostura bitters
 1 teaspoon water
-2 ounces bourbon
+2 oz bourbon
 Garnish: orange peel
 end
 Gimlet
-2 1/2 ounces gin
-1/2 ounce fresh lime juice
-1/2 ounce simple syrup
+2 1/2 oz gin
+1/2 oz fresh lime juice
+1/2 oz simple syrup
 Garnish: lime wheel
 end
 Blue Hawaii
-3/4 ounce vodka
-3/4 ounce light rum
-1/2 ounce blue curaï¿½ao
-3 ounces pineapple juice
-1 ounce sweet-and-sour mix
+3/4 oz vodka
+3/4 oz light rum
+1/2 oz blue curacao
+3 oz pineapple juice
+1 oz sweet-and-sour mix
 Garnish: pineapple wedge
 Garnish: cocktail umbrella
 end
 Mojito
 3 mint leaves
-2 ounces white rum
-3/4 ounce fresh lime juice
-1/2 ounce simple syrup
+2 oz white rum
+3/4 oz fresh lime juice
+1/2 oz simple syrup
 club soda, to top
 Garnish: mint sprig
 Garnish: lime wheel
 end
 Mai Tai
-1 1/2 ounces white rum
-3/4 ounce orange curaçao
-3/4 ounce fresh lime juice
-1/2 ounce orgeat
-1/2 ounce dark rum
+1 1/2 oz white rum
+3/4 oz orange curacao
+3/4 oz fresh lime juice
+1/2 oz orgeat
+1/2 oz dark rum
 Garnish: lime wheel
 Garnish: mint sprig
+end
+Ruby
+1 1/2 oz vodka
+1/2 oz Aperol
+3/4 oz elderflower liqueur
+3/4 oz freshly squeezed ruby red grapefruit juice
+3/4 oz freshly squeezed lemon juice
+1 tbsp egg white
+Garnish: grapefruit twist oil
+end
+Transfusion
+2 oz vodka
+1/2 oz ginger syrup
+1/2 oz fresh lime juice
+Concord grape juice ice cubes
+2 oz club soda
+Garnish: concord grape
+Garnish: crystallized ginger
+end
+Apple Cranberry Moscow Mule
+2 oz vodka
+1 oz Cran-Apple juice
+1/4 oz fresh lime juice
+ginger beer, to top
+Garnish: cranberries
+Garnish: apple slices
+end
+Espresso Martini
+2 oz Vodka
+1/2 oz Simple syrup
+1/2 oz Coffee liqueur
+1 oz Freshly brewed espresso
+Garnish: Coffee beans
+end
+Pear & Elderflower Collins
+2 oz Vodka or gin
+1 tsp Pear liqueur
+1 oz Pear puree
+3/4 oz Fresh lemon juice
+1/2 oz Elderflower liqueur
+1/2 oz Honey syrup
+Club soda
+Garnish: Thin slice of pear and grated cinnamon
+end
+Cosmopolitan
+1 1/2 oz Citrus vodka
+1 oz Cointreau
+1/2 oz Fresh lime juice
+1 dash Cranberry juice
+Garnish: Lime wheel
+end
+Oaks Lily
+1 1/2 oz vodka
+1/2 oz orange liqueur
+1/2 oz simple syrup
+1/2 oz lemon juice, freshly squeezed
+3 oz cranberry juice
+Garnish: lemon wheel
+Garnish: blackberries
+end
+Midori Sour
+1 oz Midori
+1 oz Vodka
+1/2 oz Fresh lemon juice
+1/2 oz Fresh lime juice
+Soda water, to top
+Garnish: Lemon wheel
+end
+Lemon Drop
+2 oz vodka
+1/2 oz triple sec
+1 oz simple syrup
+1 oz fresh lemon juice
+Garnish: sugar rim
+end
+French Harvest
+1 1/2 oz gin
+3/4 oz simple syrup
+3/4 oz fresh lemon juice
+Dry sparkling cider, to top
+Garnish: lemon peel
+end
+Negroni
+1 oz gin
+1 oz Campari
+1 oz sweet vermouth
+Garnish: orange peel
+end
+Bear With Me, Honey
+1 1/2 oz Tom Cat gin
+1 egg white
+3/4 oz white verjus
+1/2 oz honey syrup (equal parts honey and water)
+1/4 oz orange liqueur
+2 dashes 20% saline solution (1:5 ratio of salt to water)
+Garnish: edible flower
+Garnish: rosemary sprig
+end
+Bebbo
+1 1/2 oz London dry gin
+1 oz honey syrup (equal parts honey and water)
+3/4 oz fresh lemon juice
+1/4 oz fresh blood orange juice
+Garnish: lemon twist
+end
+Gin-Gin Mule
+1 oz simple syrup
+3/4 oz fresh lime juice
+1 mint sprig
+1 3/4 oz London dry gin
+1 oz Ginger Beer
+Garnish: 1 mint sprig
+end
+Singapore Sling
+3/4 oz gin
+1/4 oz Grand Marnier
+1/4 oz cherry liqueur
+1/4 oz herbal liqueur
+1 oz pineapple juice
+1/2 oz fresh lime juice
+1 dash bitters
+club soda, to top
+Garnish: orange slice
+Garnish: cherry
+end
+New New York Sour
+2 oz gin
+3/4 oz sour cherry cordial
+1/4 oz Combier
+1/2 oz fresh lemon juice
+club soda, to top
+Garnish: lemon twist
+end
+Golden Purl
+1 cup Cider
+1 tbsp maple syrup
+1 1/2 oz gin
+2 dashes Orange bitters
+Garnish: Orange peel
+end
+Forest Sprite
+1 1/2 oz gin
+1/2 oz Fresh lemon juice
+1/2 oz Pine syrup
+Seltzer, to top
+3 dashes Cocktailpunk Alpino cocktail bitters
+Garnish: Lemon twist
+Garnish: Pine sprig
+end
+Don Quixote
+1 1/2 oz white rum
+1 oz mango-pandan syrup
+1/2 oz lime juice, freshly squeezed
+1/2 oz aged rum
+Garnish: dehydrated lime wheel
+end
+Coco Batida
+2 oz cachaca
+2 oz coconut cream
+2 oz condensed milk
+1/2 oz simple syrup
+Garnish: shredded toasted coconut
+end
+Brazilian Buck
+1 1/2 oz cachaca
+4 oz ginger beer
+1 squeeze fresh lime
+2 dashes aromatic bitters
+Garnish: lime slice
+Garnish: ginger peel
+end
+Daiquiri
+2 oz light rum
+1 oz fresh lime juice
+3/4 oz demerara sugar syrup
+Garnish: lime twist
+end
+Hurricane
+2 oz light rum
+2 oz dark rum
+1 oz fresh lime juice
+1 oz fresh orange juice
+1/2 oz passion fruit puree
+1/2 oz simple syrup
+1 barspoon grenadine
+Garnish: orange wheel
+Garnish: preserved cherry
+end
+Surfer on Acid
+1 oz Jagermeister
+1 oz Coconut rum
+1 oz Freshly squeezed pineapple juice
+Garnish: Pineapple wedge
+end
+Miami Vice
+2 oz rum, divided
+1 cup strawberries, chopped with stems removed
+1 oz fresh lime juice
+1/2 oz simple syrup
+2 oz cream of coconut
+2 oz pineapple juice
+Garnish: pineapple slice
+end
+Painkiller
+2 oz rum
+4 oz pineapple juice
+1 oz orange juice
+1 oz cream of coconut
+Garnish: grated nutmeg
+Garnish: pineapple wedge
+end
+Bordeaux Sour
+1 maraschino cherry
+1 tablespoon maple syrup
+2 oz bourbon
+1 oz red wine
+1 oz lemon juice, freshly squeezed
+5 dashes orange bitters
+Garnish: maraschino cherry
+end
+Manhattan
+2 oz bourbon or rye
+1 oz sweet vermouth
+2 dashes Angostura bitters
+1 dash orange bitters
+Garnish: brandied cherry
+end
+Suffering Bastard
+1 oz Bourbon
+1 oz London dry gin
+1/2 oz Fresh lime juice
+2 dashes Angostura bitters
+Ginger ale, to top
+Garnish: Mint sprig
+end
+Trinidad Sour
+1 1/2 oz Angostura bitters
+1 oz Orgeat
+3/4 oz Fresh lemon juice
+1/2 oz Rye whiskey
+Garnish: Lemon peel
+end
+Scofflaw
+2 oz bourbon or rye whiskey
+1 oz dry vermouth
+1/4 oz fresh lemon juice
+1 to 2 dashes grenadine
+1 dash orange bitters
+end
+New York Sour
+2 oz rye whiskey or bourbon
+1 oz fresh lemon juice
+3/4 oz simple syrup
+1 egg white (optional)
+1/2 oz red wine
+end
+Ward Eight
+2 oz Rye whiskey
+1/2 oz Lemon juice
+1/2 oz Orange juice
+2 tsp Grenadine
+2 Speared cherries, for garnish
+end
+Rob Roy
+2 oz Scotch
+3/4 oz Sweet vermouth
+3 dashes Angostura bitters
+Garnish: Brandied cherry
+end
+Penicillin
+2 oz blended scotch
+3/4 oz lemon juice, freshly squeezed
+3/4 oz honey-ginger syrup
+1/4 oz Islay single malt scotch
+Garnish: candied ginger
+end
+Yerba Buena
+8 Mint leaves
+1/2 oz Fresh lime juice
+1/2 oz Agave nectar
+2 oz reposado tequila
+Ginger beer
+Garnish: Mint sprig
+Garnish: Lime wheel
+end
+El Diablo
+1 1/2 oz reposado tequila
+1/2 oz creme de cassis
+1/2 oz lime juice, freshly squeezed
+3 oz ginger beer
+1 blackberry
+Garnish: lime wedge
+end
+Paloma
+2 oz Tequila
+1/2 oz Fresh lime juice
+Grapefruit soda, to top
+Garnish: Lime wheel
+end
+Black Widow
+2 Blackberries
+3 Basil leaves
+1 1/2 oz Blanco tequila
+1 oz Fresh lime juice
+1 tsp Agave nectar
+Garnish: Blackberry
+Garnish: Basil leaf
+end
+Mayahuel
+1 1/5 oz mezcal
+3/4 oz triple sec
+3/4 oz Fresh lime juice
+1/4 oz Raw agave nectar
+Garnish: Sal de gusano rim
+end
+Tequila Martini
+1 1/2 oz blanco tequila
+3/4 oz sweet white (blanc) vermouth
+1/4 oz lemon juice
+2 dashes orange bitters
+Garnish: lemon twist
+end
+Devil's Margarita
+1 1/2 oz blanco tequila
+1 oz lime juice, freshly squeezed
+3/4 oz simple syrup
+1/2 oz red wine
+Garnish: lime wheel
+end
+Lounge Chair Afternoon
+1 1/2 oz pink port
+3/4 oz tequila
+3/4 oz Grapefruit juice
+1/2 oz Fresh lemon juice
+1/2 oz Tarragon simple syrup
+Garnish: Grapefruit wheel
+end
+Bloody Maria
+2 oz Tequila
+4 oz Tomato juice
+1/2 oz Fresh lemon juice
+4 dashes Worcestershire sauce
+2 dashes Tabasco sauce
+2 dashes Tapatio hot sauce
+1/2 tbsp Prepared horseradish, to taste
+1 pinch Celery salt
+1 pinch Ground black pepper
+Garnish: Lime wedge
+Garnish: Lemon wedge
+Garnish: Cucumber spear
+Garnish: Sweet pepper slices
+Garnish: Jalapeno pepper slices
+Garnish: Queso fresco
+end
+Pisco Sour
+2 oz Pisco
+1 oz Fresh lime juice
+1/2 oz Simple syrup
+1 Egg white
+Garnish: Angostura bitters
+end
+Whiskey Sour
+2 oz bourbon
+3/4 oz fresh lemon juice
+1/2 oz simple syrup
+1/2 oz egg white (optional)
+Garnish: Angostura bitters
+end
+Amaretto Sour
+1 1/2 oz amaretto liqueur
+3/4 oz cask-proof bourbon
+1 oz lemon juice, freshly squeezed
+1 teaspoon rich simple syrup
+1/2 oz egg white, beaten
+Garnish: lemon twist
+Garnish: 2 brandied cherries
+end
+Whiskey Smash
+3 lemon wedges
+2 oz bourbon
+3/4 oz simple syrup
+4 mint leaves
+Garnish: mint sprig
+end
+Gin Fizz
+2 oz Gin
+1 oz Fresh lemon juice
+3/4 oz Simple syrup
+1 Egg white (about 1/2 oz)
+1 oz Club soda
+end
+Brandy Alexander
+1 1/2 oz cognac
+1 oz dark creme de cacao
+1 oz cream
+Garnish: grated nutmeg
+end
+Vodka Soda
+2 oz vodka
+club soda, to top
+1 squeeze lemon
+Garnish: lemon wedge
+end
+Gin Rickey
+2 oz gin
+1/2 oz fresh lime juice
+soda water, to top
+Garnish: lime wheels
+end
+Vodka Gimlet
+2 oz Vodka
+3/4 oz Fresh lime juice
+1/2 oz Simple syrup
+Garnish: Lime wheel
+end
+Gin & Juice
+1 1/2 oz Gin
+Juice, to top
+end
+Bloody Mary
+1 lemon wedge
+1 lime wedge
+2 oz vodka
+4 oz tomato juice
+2 dashes Tabasco sauce
+2 tsp prepared horseradish
+2 dashes worcestershire sauce
+1 pinch celery salt
+1 pinch ground black pepper
+1 pinch smoked paprika
+Garnish: lime wedge
+Garnish: green olives
+Garnish: parsley sprig
+Garnish: celery stalk
+end
+French Martini
+2 oz vodka
+1 3/4 oz pineapple juice
+1/4 oz creme de cassis liqueur
+end
+Cucumber Cleanse
+2 oz Absolut vodka
+3/4 oz fresh cucumber juice
+1/2 oz fresh lemon juice
+1/4 oz ginger syrup
+1/4 oz honey
+5 drops hibiscus lavender oak bitters
+1 egg white
+Garnish: ground cayenne
+end
+Botanical Bee's Knees
+2 chamomile tea bags
+2 oz vodka
+3/4 oz fresh lemon juice
+1/2 oz honey syrup
+Garnish: lemon slices
+end
+Black Russian
+2 oz vodka
+1 oz Kahlua
+end
+Cucumber, Basil & Lime Gimlet
+1 1/2 oz vodka
+2 slices cucumber (1/4-inch slices)
+1 1/2 fresh basil leaves
+1 oz lemonade
+1/4 oz lime juice, freshly squeezed
+Garnish: basil leaf
+end
+Tom Yum on a Rock
+1 Lime wedge
+1 Makrut lime leaf
+1 stalk Chopped lemongrass
+1 oz Fresh lime juice
+1 3/4 oz vodka
+2/3 oz Cointreau
+2/3 oz Palm sugar syrup
+Garnish: Red pepper flakes
+Garnish: Sea salt
+Garnish: Lime wheel
+Garnish: Red chile pepper
+end
+Singapura
+1 1/2 oz Monopolowa dry gin (or other citrus-forward gin)
+1/2 oz Cherry Heering
+3/4 oz pineapple juice
+1/2 oz lime juice, freshly squeezed
+1/2 oz orange juice
+1/2 oz pandan syrup
+2 dashes Angostura bitters
+Garnish: pandan leaf
+end
+L'Alligator C'Est Vert
+1 oz Pernod absinthe
+1 oz coconut milk
+1 oz pandan syrup
+1 whole egg
+Garnish: grated nutmeg
+end
+Kamikaze
+2 oz Vodka
+3/4 oz Orange liqueur
+3/4 oz Fresh lime juice
+end
+Long Island Iced Tea
+3/4 oz Vodka
+3/4 oz White rum
+3/4 oz Silver tequila
+3/4 oz Gin
+3/4 oz Triple sec
+3/4 oz Simple syrup
+3/4 oz Fresh lemon juice
+Cola, to top
+Garnish: Lemon wedge
+end
+Quill Riff
+1 1/2 oz London dry gin
+1 oz Dolin blanc vermouth
+3/4 oz Luxardo Bitter Bianco
+Absinthe, to rinse glass
+Garnish: grapefruit twist
+end
+Killer Queen
+2 oz aromatic gin
+3/4 oz dried-rose-infused Lillet Blanc
+1/4 oz Benedictine
+4 dashes Angostura bitters
+Garnish: lemon twist
 end
