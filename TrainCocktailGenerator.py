@@ -1,219 +1,53 @@
-import tensorflow as tf
-import numpy as np
-import os
+from CreateCharSequences import load_doc
+from numpy import array
+from pickle import dump
+from datetime import datetime
+from keras.utils import to_categorical
+from keras.utils.vis_utils import plot_model
+from keras.models import Sequential
+from keras.layers import LSTM
+from keras.layers import Dense
 
-# Path to training file
-path = 'D:/Dev/Cocktail Generator/CocktailRecipes/AllLiquors.txt'
+in_filename = 'char_sequences.txt'
+raw_text = load_doc(in_filename)
+lines = raw_text.split('\n')
 
-file = open(path, "r")
+chars = sorted(list(set(raw_text)))
+mapping = dict((c, i) for i, c in enumerate(chars))
 
-text = file.read()
+sequences = list()
+for line in lines:
+    encoded_seq = [mapping[char] for char in line]
+    sequences.append(encoded_seq)
 
-# Length of text is the number of words in the text
-print("There are {} chars in the dataset".format(len(text)))
+vocab_size = len(mapping)
+print('Vocabulary Size: {}'.format(vocab_size))
 
-# The unique words in the text
-vocab = sorted(set(text))
-print("There are {} unique chars in the dataset".format(len(vocab)))
+sequences = array(sequences)
+X, y = sequences[:, :-1], sequences[:, -1]
 
-# Process the text
-# Vectorize the text
-# Create a mapping from text to int and back
-char2idx = {u: i for i, u in enumerate(vocab)}
-idx2char = np.array(vocab)
-
-# Add text to map
-text_as_int = np.array([char2idx[c] for c in text])
-
-# Show that words are mapped to idx
-print('{')
-for char, _ in zip(char2idx, range(20)):
-    print(' {:4s} : {:3d},'.format(repr(char), char2idx[char]))
-print('...\n')
-
-# The Prediction text
-# Maximum sequence length we want for a recipe
-seq_length = 100
-examples_per_epoch = len(text) // (seq_length + 1)
-
-# Create training examples/targets
-str_dataset = tf.data.Dataset.from_tensor_slices(text_as_int)
-
-# Print the first 5 words in the Dataset
-for i in str_dataset.take(5):
-    print(idx2char[i.numpy()])
-
-sequences = str_dataset.batch(seq_length+1, drop_remainder=True)
-
-# Prints first 5 batches of seq_length words
-for item in sequences.take(5):
-    print(repr(''.join(idx2char[item.numpy()])))
+sequences = [to_categorical(x, num_classes=vocab_size) for x in X]
+X = array(sequences)
+y = to_categorical(y, num_classes=vocab_size)
+X.shape
 
 
-def split_input_target(chunk):
-    input_text = chunk[:1]
-    output_text = chunk[-1:]
-    return input_text, output_text
+def define_model(X):
+    model = Sequential()
+    model.add(LSTM(75, input_shape=(X.shape[1], X.shape[2])))
+    model.add(Dense(vocab_size, activation='softmax'))
 
-
-dataset = sequences.map(split_input_target)
-
-for input_example, target_example in dataset.take(1):
-    print('Input data: ', repr(''.join(idx2char[input_example.numpy()])))
-    print('Target data: ', repr(''.join(idx2char[target_example.numpy()])))
-
-for i, (input_idx, target_idx) in enumerate(zip(input_example[:5],
-                                                target_example[:5])):
-    print("Step {:4d}".format(i))
-    print(" input: {} ({:s})".format(input_idx, repr(idx2char[input_idx])))
-    print(" expected output: {} ({:s})".format(target_idx,
-                                               repr(idx2char[target_idx])))
-
-# Create Training batches
-# Batch size
-BATCH_SIZE = 10
-
-# Buffer the size to shuffle the Dataset
-# (TF data is designed to work with possibly infinte sequences,
-# so it doesn't attempt to shuffle the entire sequence in memory.
-# Instead, it maintains a buffer in which it shuffles elements)
-BUFFER_SIZE = 100
-
-dataset = dataset.shuffle(BUFFER_SIZE).batch(BATCH_SIZE, drop_remainder=True)
-
-# Build the Model
-# Length of the vocabulary in words
-vocab_size = len(vocab)
-
-# The embedding dimension
-embedding_dim = 256
-
-# Number of RNN units
-rnn_units = 1024
-
-
-def build_model(vocab_size, embedding_dim, rnn_units, batch_size):
-    model = tf.keras.Sequential([
-        tf.keras.layers.Embedding(vocab_size,
-                                embedding_dim,
-                                batch_input_shape=[batch_size, None]
-                                  ),
-        tf.keras.layers.GRU(rnn_units,
-                            return_sequences=True,
-                            stateful=True,
-                            recurrent_initializer='glorot_uniform'
-                            ),
-        tf.keras.layers.Dense(vocab_size)
-    ])
+    model.compile(loss='categorical_crossentropy', optimizer='adam',
+                  metrics=['accuracy'])
+    model.summary()
+    # plot_model(model, to_file='model.png', show_shapes=True)
     return model
 
 
-model = build_model(
-    vocab_size=len(vocab),
-    embedding_dim=embedding_dim,
-    rnn_units=rnn_units,
-    batch_size=BATCH_SIZE)
+model = define_model(X)
+model.fit(X, y, epochs=100, verbose=2)
 
-for input_example_batch, target_example_batch in dataset.take(1):
-    example_batch_predictions = model(input_example_batch)
-    print(example_batch_predictions.shape,
-          "# (batch_size, sequence_length, vocab_size)")
+time = datetime.now().strftime('%d%m%Y-%H%M%S')
 
-model.summary()
-
-sampled_indices = tf.random.categorical(example_batch_predictions[0],
-                                        num_samples=1)
-sampled_indices = tf.squeeze(sampled_indices, axis=-1).numpy()
-
-print("Input: \n", repr("".join(idx2char[input_example_batch[0]])))
-print()
-print("Next Word Predicitions: \n", repr("".join(idx2char[sampled_indices])))
-
-
-# Train the model
-# Attach an optimizer and a loss function
-def loss(labels, logits):
-    return tf.keras.losses.sparse_categorical_crossentropy(labels,
-                                                           logits,
-                                                           from_logits=True)
-
-
-example_batch_loss = loss(target_example_batch,
-                          example_batch_predictions)
-
-print("Predicition shape: ", example_batch_predictions.shape,
-      " # (batch_size, sequence_length, vocab_size)")
-print("Scalar_Loss:       ", example_batch_loss.numpy().mean())
-
-model.compile(optimizer='adam', loss=loss)
-
-# Configure Checkpoints
-# Directory where the Checkpoints will be saved
-checkpoint_dir = './Checkpoints'
-
-# Name of the checkpoint files
-checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt_{epoch}")
-
-checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
-                                         filepath=checkpoint_prefix,
-                                         save_weights_only=True
-                                         )
-
-# Execute the Training
-EPOCHS = 20
-history = model.fit(dataset, epochs=EPOCHS, callbacks=[checkpoint_callback])
-
-# Generate Text
-tf.train.latest_checkpoint(checkpoint_dir)
-
-model = build_model(vocab_size, embedding_dim, rnn_units, batch_size=1)
-
-model.load_weights(tf.train.latest_checkpoint(checkpoint_dir))
-
-model.build(tf.TensorShape([1, None]))
-
-model.summary()
-
-
-def generate_text(model, start_string):
-    # Evaluation Step (generating text using the learned model)
-
-    # Number of characters to generate
-    num_generate = 1000
-
-    # Converting our start string to numbers (vectorizing)
-    input_eval = [char2idx[s] for s in start_string]
-    input_eval = tf.expand_dims(input_eval, 0)
-
-    # Empty string to store our results
-    text_generated = []
-
-    # Low temperatures result in more predictable text
-    # Higher temperatures result in more surprising text
-    # Experiment to find the best setting
-    temperature = 0.5
-
-    # Here batch_size = 1
-    model.reset_states()
-    for i in range(num_generate):
-        predictions = model(input_eval)
-        # remove the batch dimension
-        predictions = tf.squeeze(predictions, 0)
-
-        # Using a categorical distribution to predict the character returned
-        # by the Model
-        predictions = predictions/temperature
-        predicted_id = tf.random.categorical(predictions,
-                                             num_samples=1
-                                             )[-1, 0].numpy()
-
-        # We pass the predicted character as the next input to the Model
-        # along with the previous hidden state
-        input_eval = tf.expand_dims([predicted_id], 0)
-
-        text_generated.append(idx2char[predicted_id])
-
-    return (start_string + ''.join(text_generated))
-
-
-print(generate_text(model, start_string='Tequila '))
+model.save('./SavedModels/model{}.h5'.format(time))
+dump(mapping, open('./SavedMappings/mapping{}.pkl'.format(time), 'wb'))
