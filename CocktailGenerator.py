@@ -3,10 +3,10 @@ from keras.models import load_model
 from keras.utils import to_categorical
 from keras.preprocessing.sequence import pad_sequences
 
-model_file = './SavedModels/model03092020-155654.h5'
+model_file = './SavedModels/model04092020-133048.h5'
 model = load_model(model_file)
 
-mapping_file = './SavedMappings/mapping03092020-155654.pkl'
+mapping_file = './SavedMappings/mapping04092020-133048.pkl'
 mapping = load(open(mapping_file, 'rb'))
 
 
@@ -28,7 +28,12 @@ def generate_seq(model, mapping, seq_length, seed_text, n_chars):
                 out_char = char
                 break
         in_text += out_char
+
+        # Exit early if end character is predicted
+        if out_char == '_':
+            return in_text
+
     return in_text
 
 
-print(generate_seq(model, mapping, 12, 'Rum Sunday ', 100))
+print(generate_seq(model, mapping, 12, 'The Test ', 300))

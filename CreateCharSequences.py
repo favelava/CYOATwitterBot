@@ -5,10 +5,12 @@ def load_doc(filename):
     return text
 
 
-path = 'D:/Dev/Cocktail Generator/CocktailRecipes/AllLiquors.txt'
+path = './CocktailRecipes/AllLiquors.txt'
 
 raw_text = load_doc(path)
-print(raw_text)
+
+recipes = raw_text.split('_')
+print('{} Recipes in corpus'.format(len(recipes)))
 
 tokens = raw_text.split()
 raw_text = ' '.join(tokens)
@@ -19,7 +21,8 @@ sequences = list()
 for i in range(length, len(raw_text)):
     seq = raw_text[i-length:i+1]
     sequences.append(seq)
-    print('Total Sequences: {}'.format(len(sequences)))
+
+print('Total Sequences: {}'.format(len(sequences)))
 
 
 def save_doc(lines, filename):

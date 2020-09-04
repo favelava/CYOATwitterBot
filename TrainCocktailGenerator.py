@@ -5,6 +5,7 @@ from datetime import datetime
 from keras.utils import to_categorical
 from keras.utils.vis_utils import plot_model
 from keras.models import Sequential
+from keras.layers import RepeatVector
 from keras.layers import LSTM
 from keras.layers import Dense
 
@@ -29,18 +30,18 @@ X, y = sequences[:, :-1], sequences[:, -1]
 sequences = [to_categorical(x, num_classes=vocab_size) for x in X]
 X = array(sequences)
 y = to_categorical(y, num_classes=vocab_size)
-X.shape
 
 
 def define_model(X):
     model = Sequential()
+
     model.add(LSTM(75, input_shape=(X.shape[1], X.shape[2])))
+    model.add(RepeatVector(3))
+    model.add(LSTM(75))
     model.add(Dense(vocab_size, activation='softmax'))
 
-    model.compile(loss='categorical_crossentropy', optimizer='adam',
-                  metrics=['accuracy'])
+    model.compile(loss='categorical_crossentropy', optimizer='adam')
     model.summary()
-    # plot_model(model, to_file='model.png', show_shapes=True)
     return model
 
 
