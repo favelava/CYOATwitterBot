@@ -9,7 +9,7 @@ Bourbon Old Fashioned
 1/2 teaspoon sugar
 3 dashes Angostura bitters
 1 teaspoon water
-2 oz bourbon
+2 oz bourbon whiskey
 Garnish: orange peel
 _
 Gimlet
@@ -258,21 +258,21 @@ _
 Bordeaux Sour
 1 maraschino cherry
 1 tablespoon maple syrup
-2 oz bourbon
+2 oz bourbon whiskey
 1 oz red wine
 1 oz lemon juice, freshly squeezed
 5 dashes orange bitters
 Garnish: maraschino cherry
 _
 Manhattan
-2 oz bourbon or rye
+2 oz bourbon or rye whiskey
 1 oz sweet vermouth
 2 dashes Angostura bitters
 1 dash orange bitters
 Garnish: brandied cherry
 _
 Suffering Bastard
-1 oz Bourbon
+1 oz Bourbon whiskey
 1 oz London dry gin
 1/2 oz Fresh lime juice
 2 dashes Angostura bitters
@@ -308,16 +308,16 @@ Ward Eight
 2 Speared cherries, for garnish
 _
 Rob Roy
-2 oz Scotch
+2 oz Scotch whiskey
 3/4 oz Sweet vermouth
 3 dashes Angostura bitters
 Garnish: Brandied cherry
 _
 Penicillin
-2 oz bl_ed scotch
+2 oz blended scotch whiskey
 3/4 oz lemon juice, freshly squeezed
 3/4 oz honey-ginger syrup
-1/4 oz Islay single malt scotch
+1/4 oz Islay single malt scotch whiskey
 Garnish: candied ginger
 _
 Yerba Buena
@@ -414,7 +414,7 @@ Garnish: Angostura bitters
 _
 Amaretto Sour
 1 1/2 oz amaretto liqueur
-3/4 oz cask-proof bourbon
+3/4 oz cask-proof bourbon whiskey
 1 oz lemon juice, freshly squeezed
 1 teaspoon rich simple syrup
 1/2 oz egg white, beaten
@@ -1385,7 +1385,7 @@ French 125
 5 oz chilled champagne
 _
 Ginger Fizz
-1 oz bourbon
+1 oz bourbon whiskey
 1 oz pineapple juice
 3 slices ginger
 5 oz chilled champagne
@@ -1414,7 +1414,7 @@ _
 Kentucky Champagne Cocktail
 1 sugar cube
 3 dashes Peychaud's
-1 oz bourbon
+1 oz bourbon whiskey
 1/2 oz peach liqueur
 5 oz chilled champagne
 Garnish: Lemon twist
@@ -1803,4 +1803,686 @@ Gold Martini
 1/4 oz brandy
 4 slices ginger
 Garnish: Candied ginger
+_
+Grass Skirt
+1 1/2 oz gin
+1 oz Cointreau
+1 oz pineapple juice
+1/2 tsp grenadine
+_
+Green Devil
+1 1/2 oz gin
+3/4 oz creme de menthe
+1/2 oz fresh lime juice
+3 oz chilled club soda
+_
+Guggenheim
+1 oz gin
+1 oz brandy
+1 oz Cointreau
+_
+Honolulu
+2 oz gin
+1/2 oz curacao
+1/4 oz fresh lime juice
+1/4 oz fresh orange juice
+Garnish: Lemon twist
+_
+Imperial Gin
+2 oz gin
+1 oz fresh lemon juice
+3 oz chilled club soda
+Garnish: Lemon peel spiral
+_
+Jamaica Glow
+1 1/2 oz gin
+1/2 oz dry red wine
+1/2 oz dry rum
+1/2 oz dark rum
+1/2 oz fresh orange juice
+_
+Jet Black
+1 1/2 oz gin
+2 tsp sweet vermouth
+1/4 oz black sambuca
+_
+Jewel of the Nile
+1 1/2 oz gin
+1/2 oz green Chartreuse
+1/2 oz yellow Chartreuse
+_
+Jockey Club
+2 oz gin
+1/2 oz creme de noyaux
+1/2 oz creme de cacao
+1/4 oz fresh lemon juice
+1 dash orange bitters
+_
+Juniper Royale
+1 oz gin
+1/2 oz fresh orange juice
+1/2 oz cranberry juice
+1 dash grenadine
+4 oz chilled champagne
+_
+Jupiter Cocktail
+1 1/2 oz gin
+1/2 oz dry vermouth
+1/4 oz Parfait Amour
+1/4 oz fresh orange juice
+_
+Key Lime Martini
+1 1/2 oz gin
+1 oz Tuaca
+1 oz fresh key lime juice
+1 tsp sugar
+Garnish: Lime wheel
+_
+Kyoto Cocktail
+1 1/2 oz gin
+1/2 oz dry vermouth
+1/2 oz Midori
+1 dash fresh lemon juice
+_
+Lady Diana
+1 oz gin
+1 oz Campari
+2/3 oz fresh lime juice
+1 dash simple syrup
+_
+L'Amour
+2 oz gin
+1 dash cherry brandy
+1 dash grenadine
+1 dash fresh lemon juice
+Garnish: Fresh Mint sprig
+_
+Classic Martini
+2 oz gin
+1/2 oz dry vermouth
+Garnish: Lemon twist or green olive
+_
+Dry Martini
+2 oz gin
+1/4 oz dry vermouth
+Garnish: Lemon twist
+_
+Extra-Dry Martini
+2 oz gin
+1/2 tsp dry vermouth
+Garnish: Lemon twist or green olive
+_
+Perfect Martini
+2 oz gin
+1/2 oz dry vermouth
+1/2 oz sweet vermouth
+Garnish: Orange slice
+_
+Dirty Martini
+2 oz gin
+1/2 oz extra-dry vermouth
+1/2 oz brine from cocktail olives
+Garnish: Green olive
+_
+Naked Martini
+3 oz gin
+Garnish: Lemon twist or green olive
+_
+Fino Martini
+2 oz gin
+2 dashes fino sherry
+Garnish: Lemon twist
+_
+Knickerbocker
+2 oz gin
+1 oz dry vermouth
+1/2 oz sweet vermouth
+1 dash orange bitters
+Garnish: Lemon twist
+_
+Smoky Martini
+2 oz gin
+1/4 oz single-malt scotch whiskey
+1/2 tsp dry vermouth
+Garnish: Lemon twist
+_
+Picasso Martini
+2 1/2 oz chilled gin
+1 cube frozen dried vermouth
+_
+Gibson
+2 oz gin
+1/4 oz dry vermouth
+Garnish: Pearl onion
+_
+Maiden's Prayer
+1 oz gin
+1 oz Cointreau
+1/2 oz fresh lemon juice
+1/2 oz fresh orange juice
+Garnish: Orange twist
+_
+Mandarine Martini
+1/4 oz triple sec
+1 dash Cointreau
+1 1/2 oz gin
+1/2 oz vodka
+Garnish: Mandarin peel spiral
+_
+Martinez
+2 oz Old Tom gin
+1/2 oz sweet vermouth
+1/4 oz maraschino liqueur
+1 dash orange bitters
+_
+Milano
+1 1/2 oz gin
+1 1/2 oz Campari
+1 oz fresh lemon juice
+_
+Monkey Gland
+1 1/2 oz gin
+1 oz fresh orange juice
+1 tsp Benedictine
+4 dashes grenadine
+_
+Moonshot
+1 1/2 oz gin
+3 oz clam juice
+1 dash red pepper sauce
+_
+Newport Cooler
+1 1/2 oz gin
+1/2 oz brandy
+1/2 oz peach liqueur
+1 dash fresh lime juice
+3 oz chilled ginger ale
+_
+Classic Negroni
+1 oz gin
+1 oz Campari
+1 oz sweet vermouth
+3 oz chilled club soda
+Garnish: Orange slice
+_
+Negroni Cocktail
+1 oz gin
+1 oz Campari
+1 oz sweet vermouth
+Garnish: Orange twist
+_
+Orange Blossom
+1 1/2 oz gin
+1 1/2 oz fresh orange juice
+1/4 oz Cointreau
+2 dashes orange flower water
+Garnish: Orange slice
+_
+Orchid
+2 oz gin
+1 oz creme de noyauz
+1/2 oz Tuaca
+1/2 oz Parfait Amour
+1 oz fresh lemon juice
+_
+Oriental
+1 1/2 oz gin
+1 oz passion fruit liqueur
+1/4 oz limoncello
+Garnish: Lemon twist
+_
+Pall Mall
+1 1/2 oz gin
+1/2 oz dry vermouth
+1/2 oz sweet vermouth
+1 tsp creme de menthe
+1 dash Angostura
+_
+Parisian Cocktail
+1 oz gin
+1 oz creme de cassis
+1 oz dry vermouth
+_
+Passion Cocktail
+1/4 oz passion fruit liqueur
+2 oz gin
+Garnish: Lemon peel spiral
+_
+Pink Gin
+5 dashes Angostura or Peychaud's
+2 1/2 oz chilled gin
+Garnish: Lemon twist
+_
+Pink Martini
+2 oz gin
+1/2 oz guava nectar
+1/2 oz fresh orange juice
+Garnish: Orange twist
+_
+Pink Pamplemousse
+1 1/2 oz gin
+3/4 oz orange liqueur
+1 1/2 oz fresh grapefruit juice
+Garnish: Lemon twist
+_
+Rendezvous
+1 1/2 oz gin
+1/2 oz kirsch
+1/2 oz Campari
+Garnish: Lemon twist
+_
+Ramos Gin Fizz
+2 oz gin
+1 oz fresh lemon juice
+1/2 oz fresh lime
+1 tsp vanilla extract
+3 dashes orange flower water
+1 egg white
+1 1/2 oz heavy cream
+1 tbsp sugar
+4 oz chilled club soda
+Garnish: Lemon slice
+_
+Rocco
+1 1/2 oz gin
+1/2 oz Campari
+1/2 oz orange liqueur
+1/2 oz fresh mandarin orange juice
+1/2 oz apple juice
+_
+Rose Martini
+2 1/2 oz fin
+1 dash Cointreau
+1 dash rose water
+_
+Seville
+1 1/2 oz gin
+1/2 oz sherry
+1/2 oz fresh orange juice
+2 tsp sugar
+_
+Silver Bullet
+1 1/2 oz gin
+3/4 oz kummel
+3/4 oz fresh lemon juice
+Garnish: Lemon twist
+_
+Tasmanian Twister Cocktail
+1 1/2 oz gin
+1/2 oz Campari
+1/2 oz sweet vermouth
+1 oz fresh grapefruit juice
+Garnish: Orange twist
+_
+Tom Collins
+2 oz gin
+1 oz fresh lemon juice
+1/2 oz simple syrup
+3 oz chilled club soda
+Garnish: Lemon slice
+Garnish: Maraschino cherry
+_
+Venus
+2 oz gin
+1 oz Cointreau
+1/4 oz simple syrup
+1 dash Peychaud's bitters
+Garnish: Raspberries
+_
+Vesper Martini
+2 oz gin
+1/4 oz vodka
+1/3 oz Lillet Blanc
+Garnish: Orange twist
+_
+Alabama Slammer
+1 oz Southern Comfort
+1 oz amaretto
+1/2 oz sloe gin
+1 dash fresh lemon juice
+Garnish: Maraschino cherry
+Garnish: Lemon slice
+_
+Alfonso Special Cocktail
+1 1/2 oz Grand Marnier
+3/4 oz gin
+3/4 oz dry vermouth
+1/4 oz sweet vermouth
+2 dashes Angostura
+_
+Amaretto Alexander
+2 oz amaretto
+1 1/2 oz creme de cacao
+1 oz heavy cream
+_
+Amaretto Sour
+2 oz amaretto
+1 oz fresh lemon juice
+Garnish: Maraschino cherry
+_
+Angel's Tit
+2 oz creme de caco
+1/2 oz heavy cream
+Garnish: Maraschino cherry
+_
+B-52
+1/2 oz Kahlua
+1/2 oz Irish cream liqueur
+1/2 oz Grand Marnier
+_
+B&B
+1/2 oz Benedectine
+1/2 oz Cognac
+_
+Banshee
+1 oz creme de cacao
+1 oz creme de banane
+1 oz heavy cream
+_
+Absinthe Drip
+1 1/2 oz Pernod
+1 sugar cube
+5 oz cold filtered water
+_
+Blue Angel
+1/2 oz blue curacao
+1/2 oz brandy
+1/2 oz Parfait Amour
+1/2 oz heavy cream
+1 dash fresh lemon juice
+_
+Bocci Ball
+2 oz amaretto
+4 oz fresh orange juice
+2 oz chilled club soda
+Garnish: Orange slice
+_
+Buttered Toffee
+1 oz amaretto
+1 oz Irish cream liqueur
+1 oz Coffee liqueur
+2 oz heavy cream
+_
+Butterfinger
+2 oz butterscotch schnapps
+1 1/2 oz Irish cream liqueur
+6 oz milk
+1/2 oz chocolate syrup
+_
+Cafe Romano
+1 oz sambuca
+1 oz coffee liqueur
+1 oz heavy cream
+_
+Chocolate ALmond
+3/4 oz amaretto
+3/4 oz Irish cream liqueur
+3/4 oz cream de cacao
+_
+Death by Chocolate
+3/4 oz Irish cream liqueur
+3/4 oz creme de cacao
+3/4 oz vodka
+1/4 cup chocolate ice cream
+Garnish: Chocolate shavings
+_
+Dreamsicle
+1 oz amaretto
+1/2 oz curacao
+1/2 oz vanilla vodka
+2 oz fresh orange juice
+2 oz heavy cream
+_
+Duchess
+1 oz Pernod
+1 oz dry vermouth
+1 oz sweet vermouth
+_
+Golden Cadillac
+1 oz creme de cacao
+3/4 oz Galliano
+1 1/2 oz heavy cream
+_
+Grasshopper
+1 oz creme de menthe
+1 oz creme de cacao
+1 oz heavy cream
+_
+Hairy Navel
+2 oz peach schnapps
+1 oz vodka
+4 oz fresh orange juice
+Garnish: Orange slice
+Garnish: Peach slice
+_
+Liquid Cocaine #1
+1/2 oz black rum
+1/2 oz root beer schnapps
+1/2 oz Jagermeister
+1/2 oz Rumple Minze
+_
+Liquid Cocaine #2
+1/2 oz dark rum
+1/2 oz Rumple Minze
+1/2 oz Jagermeister
+1/2 oz Goldschlager
+_
+Lollipop
+3/4 oz green Chartreuse
+3/4 oz Cointreau
+3/4 oz kirsch
+1/4 tsp maraschino liqueur
+_
+London Fog
+1 1/2 oz amaretto
+1 1/2 oz creme de menthe
+2 dashes Angostura
+Garnish: Lemon slice
+_
+McClelland Cocktail
+1 1/2 oz sloe gin
+3/4 oz triple sec
+2 dashes orange bitters
+_
+Melon Alexander
+1 1/2 oz melon liqueur
+1 oz brandy
+1 oz heavy cream
+_
+Merry Widow
+1 1/2 oz cherry brandy
+1 1/2 oz maraschino liqueur
+Garnish: Maraschino cherry
+_
+Milano
+1 1/2 oz Galliano
+1 1/2 oz gin
+1 oz fresh lemon juice
+_
+Mind Eraser
+1 1/2 oz coffee liqueur
+1 1/2 oz vodka
+3 oz chilled club soda
+_
+Mocha Mint
+3/4 oz coffee liqueur
+3/4 oz creme de menthe
+3/4 oz creme de cacao
+_
+Moulin Rouge
+1 1/2 oz sloe gin
+3/4 oz sweet vermouth
+2 dashes Angostura
+_
+Nutty Irishman
+1 1/2 oz Irish cream liqueur
+1 1/2 oz Frangelico
+_
+Oatmeal Cookie
+1 oz butterscotch schnapps
+1 oz Jagermeister
+1 oz Irish cream liqueur
+1/4 oz pastis
+1/2 oz heavy cream
+Garnish: Nutmeg
+_
+Peppermint Stick
+1 1/2 oz creme de cacao
+1 oz peppermint schnapps
+1 oz heavy cream
+_
+Pernod Cocktail
+1/2 oz water
+1/2 tsp sugar
+2 dashes Angostura
+2 oz Pernod
+_
+Pimm's Cup
+3 oz Pimm's No. 1
+4 oz chilled club soda
+Garnish: Cucumber spear
+Garnish: Lemon slice
+_
+Pink Squirrel
+1 oz creme de cacao
+1 oz creme de noyaux
+1 oz heavy cream
+_
+Pousse-Cafe #1
+1/4 oz grenadine
+1/4 oz yellow Chartreuse
+1/4 oz creme de cassis
+1/4 oz creme de menthe
+1/4 oz green Chartreuse
+1/2 oz brandy
+_
+Pousse_Cafe #2
+1/4 oz raspberry syrup
+1/4 oz amaretto
+1/4 oz Parfait Amour
+1/4 oz creme de violette
+1/4 oz yellow Chartreuse
+1/4 oz green Chartreuse
+1/4 oz brandy
+_
+Angel's Blush
+1/2 oz maraschino liqueur
+1/2 oz creme de violette
+1/2 oz Benedictine
+1/2 oz heavy cream
+_
+Fifth Avenue
+1 oz creme de cacao
+1 oz apricot brandy
+1/2 oz heavy cream
+_
+Fourth of July
+3/4 oz grenadine
+3/4 oz Cointreau
+3/4 oz blue Curacao
+_
+French Tricolor
+3/4 oz grenadine
+3/4 oz maraschino liqueur
+3/4 oz creme de violette
+_
+Havana Rainbow
+1/4 oz grenadine
+1/4 oz anisette
+1/4 oz Parfait Amour
+1/4 oz creme de menthe
+1/4 oz yellow Chartreuse
+1/4 oz rum
+_
+Jersey Lily
+1/2 oz green Chartreuse
+1/2 oz Cognac
+10 dashes Angostura
+_
+Liquid Symphony
+1/2 oz creme de rose
+1/2 oz yellow Chartreuse
+1/2 oz creme de menthe
+1/2 oz brandy
+_
+Mexican Flag
+1/2 oz grenadine
+1/2 oz creme de menthe
+1/2 oz silver tequila
+_
+Paris Rainbow
+1/4 oz creme de violette
+1/4 oz creme de cassis
+1/4 oz maraschino liqueur
+1/4 oz creme de menthe
+1/4 oz yellow Chartreuse
+1/4 oz curacao
+1/4 oz cherry brandy
+_
+Queen Elizabeth Wine
+1 1/2 oz Benedectine
+3/4 oz dry vermouth
+3/4 oz fresh lemon juice
+Garnish: Lemon twist
+_
+San Francisco Cocktail
+2 oz sloe gin
+1 oz dry vermouth
+1 oz sweet vermouth
+1 dash Peychaud's
+Garnish: Maraschino cherry
+_
+Screaming Orgasm
+3/4 oz coffee liqueur
+3/4 oz Irish cream liqueur
+3/4 oz amaretto
+3/4 oz vodka
+_
+Skinny Dipper
+2 oz melon liqueur
+6 oz cranberry juice
+Garnish: Lemon twist
+_
+Slippery Nipple
+1 1/2 oz Irish cream liqueur
+1 1/2 oz sambuca
+_
+Sloe Gin Fizz
+2 oz sloe gin
+1 1/2 oz fresh lemon juice
+1/2 oz simple syrup
+4 oz chilled club soda
+Garnish: Maraschino cherry
+_
+Slow Screw
+1 1/2 oz sloe gin
+1 1/2 oz fresh orange juice
+_
+Sombrero
+2 oz coffee liqueur
+1 1/2 oz heavy cream
+_
+Toasted Almond
+1 oz amaretto
+1 oz coffee liqueur
+1 oz heavy cream
+_
+Velvet Hammer
+1 oz Cointreau
+1 oz creme de cacao
+1/2 oz brandy
+1 oz heavy cream
+_
+Yellow Parrot Cocktail
+3/4 oz yellow Chartreuse
+3/4 oz Pernod
+3/4 oz apricot brandy
+_
+Acapulco
+1 1/2 oz light rum
+1/2 oz Cointreau
+1/2 oz fresh lime juice
+1 egg white
+1/2 oz simple syrup
+Garnish: Fresh mint sprig
 _

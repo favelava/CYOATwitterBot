@@ -9,10 +9,18 @@ path = './CocktailRecipes/AllLiquors.txt'
 
 raw_text = load_doc(path)
 
+# Count the number of recipes being trained on
 recipes = raw_text.split('_')
 print('{} Recipes in corpus'.format(len(recipes)))
 
-tokens = raw_text.split()
+# Shuffle recipes for added randomness
+recipes = recipes.shuffle()
+# Rejoin list into one long string
+recipes = '_'.join(recipes)
+
+# Seperate recipe string into words
+tokens = recipes.split()
+# Rejoin all recipes into one long string
 raw_text = ' '.join(tokens)
 
 length = 12
