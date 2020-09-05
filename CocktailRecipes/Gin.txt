@@ -113,6 +113,16 @@ Gin & Juice
 1 1/2 oz Gin
 Juice, to top
 _
+Singapura
+1 1/2 oz Monopolowa dry gin (or other citrus-forward gin)
+1/2 oz Cherry Heering
+3/4 oz pineapple juice
+1/2 oz lime juice, freshly squeezed
+1/2 oz orange juice
+1/2 oz pandan syrup
+2 dashes Angostura bitters
+Garnish: pandan leaf
+_
 Long Island Iced Tea
 3/4 oz Vodka
 3/4 oz White rum
@@ -539,4 +549,312 @@ Jupiter Cocktail
 1 1/2 oz gin
 1/2 oz dry vermouth
 1/4 oz Parfait Amour
-1/4 oz fresh orange juice_
+1/4 oz fresh orange juice
+_
+Key Lime Martini
+1 1/2 oz gin
+1 oz Tuaca
+1 oz fresh key lime juice
+1 tsp sugar
+Garnish: Lime wheel
+_
+Kyoto Cocktail
+1 1/2 oz gin
+1/2 oz dry vermouth
+1/2 oz Midori
+1 dash fresh lemon juice
+_
+Lady Diana
+1 oz gin
+1 oz Campari
+2/3 oz fresh lime juice
+1 dash simple syrup
+_
+L'Amour
+2 oz gin
+1 dash cherry brandy
+1 dash grenadine
+1 dash fresh lemon juice
+Garnish: Fresh Mint sprig
+_
+Classic Martini
+2 oz gin
+1/2 oz dry vermouth
+Garnish: Lemon twist or green olive
+_
+Dry Martini
+2 oz gin
+1/4 oz dry vermouth
+Garnish: Lemon twist
+_
+Extra-Dry Martini
+2 oz gin
+1/2 tsp dry vermouth
+Garnish: Lemon twist or green olive
+_
+Perfect Martini
+2 oz gin
+1/2 oz dry vermouth
+1/2 oz sweet vermouth
+Garnish: Orange slice
+_
+Dirty Martini
+2 oz gin
+1/2 oz extra-dry vermouth
+1/2 oz brine from cocktail olives
+Garnish: Green olive
+_
+Naked Martini
+3 oz gin
+Garnish: Lemon twist or green olive
+_
+Fino Martini
+2 oz gin
+2 dashes fino sherry
+Garnish: Lemon twist
+_
+Knickerbocker
+2 oz gin
+1 oz dry vermouth
+1/2 oz sweet vermouth
+1 dash orange bitters
+Garnish: Lemon twist
+_
+Smoky Martini
+2 oz gin
+1/4 oz single-malt scotch whiskey
+1/2 tsp dry vermouth
+Garnish: Lemon twist
+_
+Picasso Martini
+2 1/2 oz chilled gin
+1 cube frozen dried vermouth
+_
+Gibson
+2 oz gin
+1/4 oz dry vermouth
+Garnish: Pearl onion
+_
+Maiden's Prayer
+1 oz gin
+1 oz Cointreau
+1/2 oz fresh lemon juice
+1/2 oz fresh orange juice
+Garnish: Orange twist
+_
+Mandarine Martini
+1/4 oz triple sec
+1 dash Cointreau
+1 1/2 oz gin
+1/2 oz vodka
+Garnish: Mandarin peel spiral
+_
+Martinez
+2 oz Old Tom gin
+1/2 oz sweet vermouth
+1/4 oz maraschino liqueur
+1 dash orange bitters
+_
+Milano
+1 1/2 oz gin
+1 1/2 oz Campari
+1 oz fresh lemon juice
+_
+Monkey Gland
+1 1/2 oz gin
+1 oz fresh orange juice
+1 tsp Benedictine
+4 dashes grenadine
+_
+Moonshot
+1 1/2 oz gin
+3 oz clam juice
+1 dash red pepper sauce
+_
+Newport Cooler
+1 1/2 oz gin
+1/2 oz brandy
+1/2 oz peach liqueur
+1 dash fresh lime juice
+3 oz chilled ginger ale
+_
+Classic Negroni
+1 oz gin
+1 oz Campari
+1 oz sweet vermouth
+3 oz chilled club soda
+Garnish: Orange slice
+_
+Negroni Cocktail
+1 oz gin
+1 oz Campari
+1 oz sweet vermouth
+Garnish: Orange twist
+_
+Orange Blossom
+1 1/2 oz gin
+1 1/2 oz fresh orange juice
+1/4 oz Cointreau
+2 dashes orange flower water
+Garnish: Orange slice
+_
+Orchid
+2 oz gin
+1 oz creme de noyauz
+1/2 oz Tuaca
+1/2 oz Parfait Amour
+1 oz fresh lemon juice
+_
+Oriental
+1 1/2 oz gin
+1 oz passion fruit liqueur
+1/4 oz limoncello
+Garnish: Lemon twist
+_
+Pall Mall
+1 1/2 oz gin
+1/2 oz dry vermouth
+1/2 oz sweet vermouth
+1 tsp creme de menthe
+1 dash Angostura
+_
+Parisian Cocktail
+1 oz gin
+1 oz creme de cassis
+1 oz dry vermouth
+_
+Passion Cocktail
+1/4 oz passion fruit liqueur
+2 oz gin
+Garnish: Lemon peel spiral
+_
+Pink Gin
+5 dashes Angostura or Peychaud's
+2 1/2 oz chilled gin
+Garnish: Lemon twist
+_
+Pink Martini
+2 oz gin
+1/2 oz guava nectar
+1/2 oz fresh orange juice
+Garnish: Orange twist
+_
+Pink Pamplemousse
+1 1/2 oz gin
+3/4 oz orange liqueur
+1 1/2 oz fresh grapefruit juice
+Garnish: Lemon twist
+_
+Rendezvous
+1 1/2 oz gin
+1/2 oz kirsch
+1/2 oz Campari
+Garnish: Lemon twist
+_
+Ramos Gin Fizz
+2 oz gin
+1 oz fresh lemon juice
+1/2 oz fresh lime
+1 tsp vanilla extract
+3 dashes orange flower water
+1 egg white
+1 1/2 oz heavy cream
+1 tbsp sugar
+4 oz chilled club soda
+Garnish: Lemon slice
+_
+Rocco
+1 1/2 oz gin
+1/2 oz Campari
+1/2 oz orange liqueur
+1/2 oz fresh mandarin orange juice
+1/2 oz apple juice
+_
+Seville
+1 1/2 oz gin
+1/2 oz sherry
+1/2 oz fresh orange juice
+2 tsp sugar
+_
+Silver Bullet
+1 1/2 oz gin
+3/4 oz kummel
+3/4 oz fresh lemon juice
+Garnish: Lemon twist
+_
+Tasmanian Twister Cocktail
+1 1/2 oz gin
+1/2 oz Campari
+1/2 oz sweet vermouth
+1 oz fresh grapefruit juice
+Garnish: Orange twist
+_
+Tom Collins
+2 oz gin
+1 oz fresh lemon juice
+1/2 oz simple syrup
+3 oz chilled club soda
+Garnish: Lemon slice
+Garnish: Maraschino cherry
+_
+Venus
+2 oz gin
+1 oz Cointreau
+1/4 oz simple syrup
+1 dash Peychaud's bitters
+Garnish: Raspberries
+_
+Vesper Martini
+2 oz gin
+1/4 oz vodka
+1/3 oz Lillet Blanc
+Garnish: Orange twist
+_
+Alabama Slammer
+1 oz Southern Comfort
+1 oz amaretto
+1/2 oz sloe gin
+1 dash fresh lemon juice
+Garnish: Maraschino cherry
+Garnish: Lemon slice
+_
+Alfonso Special Cocktail
+1 1/2 oz Grand Marnier
+3/4 oz gin
+3/4 oz dry vermouth
+1/4 oz sweet vermouth
+2 dashes Angostura
+_
+McClelland Cocktail
+1 1/2 oz sloe gin
+3/4 oz triple sec
+2 dashes orange bitters
+_
+Milano
+1 1/2 oz Galliano
+1 1/2 oz gin
+1 oz fresh lemon juice
+_
+Moulin Rouge
+1 1/2 oz sloe gin
+3/4 oz sweet vermouth
+2 dashes Angostura
+_
+San Francisco Cocktail
+2 oz sloe gin
+1 oz dry vermouth
+1 oz sweet vermouth
+1 dash Peychaud's
+Garnish: Maraschino cherry
+_
+Sloe Gin Fizz
+2 oz sloe gin
+1 1/2 oz fresh lemon juice
+1/2 oz simple syrup
+4 oz chilled club soda
+Garnish: Maraschino cherry
+_
+Sloe Screw
+1 1/2 oz sloe gin
+1 1/2 oz fresh orange juice
+_

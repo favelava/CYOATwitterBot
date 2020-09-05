@@ -1,3 +1,4 @@
+
 Blue Hawaii
 3/4 oz vodka
 3/4 oz light rum
@@ -39,6 +40,16 @@ Espresso Martini
 1/2 oz Coffee liqueur
 1 oz Freshly brewed espresso
 Garnish: Coffee beans
+_
+Pear & Elderflower Collins
+2 oz Vodka or gin
+1 tsp Pear liqueur
+1 oz Pear puree
+3/4 oz Fresh lemon juice
+1/2 oz Elderflower liqueur
+1/2 oz Honey syrup
+Club soda
+Garnish: Thin slice of pear and grated cinnamon
 _
 Cosmopolitan
 1 1/2 oz Citrus vodka
@@ -204,6 +215,16 @@ Alcazar
 1 dash apricot liqueur
 5 oz chilled champagne
 _
+Champagne Velvet
+3 oz chilled Guiness
+3 oz chilled champagne
+Blue Champagne
+1 oz vodka or gin
+1/4 oz fresh lemon juice
+1/4 oz blue curacao
+1 dash triple sec
+5 oz chilled champagne
+_
 James Bond
 1 sugar cube
 1 dash Angostura
@@ -226,4 +247,49 @@ Gold Martini
 1/4 oz brandy
 4 slices ginger
 Garnish: Candied ginger
+_
+Mandarine Martini
+1/4 oz triple sec
+1 dash Cointreau
+1 1/2 oz gin
+1/2 oz vodka
+Garnish: Mandarin peel spiral
+_
+Vesper Martini
+2 oz gin
+1/4 oz vodka
+1/3 oz Lillet Blanc
+Garnish: Orange twist
+_
+Death by Chocolate
+3/4 oz Irish cream liqueur
+3/4 oz creme de cacao
+3/4 oz vodka
+1/4 cup chocolate ice cream
+Garnish: Chocolate shavings
+_
+Dreamsicle
+1 oz amaretto
+1/2 oz curacao
+1/2 oz vanilla vodka
+2 oz fresh orange juice
+2 oz heavy cream
+_
+Hairy Navel
+2 oz peach schnapps
+1 oz vodka
+4 oz fresh orange juice
+Garnish: Orange slice
+Garnish: Peach slice
+_
+Mind Eraser
+1 1/2 oz coffee liqueur
+1 1/2 oz vodka
+3 oz chilled club soda
+_
+Screaming Orgasm
+3/4 oz coffee liqueur
+3/4 oz Irish cream liqueur
+3/4 oz amaretto
+3/4 oz vodka
 _

@@ -104,3 +104,8 @@ Mexican Fizz
 1 oz creme de cassis
 1 oz champagne
 _
+Mexican Flag
+1/2 oz grenadine
+1/2 oz creme de menthe
+1/2 oz silver tequila
+_

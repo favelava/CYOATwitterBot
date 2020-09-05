@@ -43,6 +43,13 @@ Scofflaw
 1 to 2 dashes grenadine
 1 dash orange bitters
 _
+New York Sour
+2 oz rye whiskey or bourbon
+1 oz fresh lemon juice
+3/4 oz simple syrup
+1 egg white (optional)
+1/2 oz red wine
+_
 Ward Eight
 2 oz Rye whiskey
 1/2 oz Lemon juice
@@ -102,4 +109,10 @@ Ohio
 1 dash triple sec
 1 dash Angostura
 5 oz chilled champagne
+_
+Smoky Martini
+2 oz gin
+1/4 oz single-malt scotch whiskey
+1/2 tsp dry vermouth
+Garnish: Lemon twist
 _
