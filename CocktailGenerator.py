@@ -2,11 +2,12 @@ from pickle import load
 from keras.models import load_model
 from keras.utils import to_categorical
 from keras.preprocessing.sequence import pad_sequences
+import numpy as np
 
-model_file = './SavedModels/model04092020-133048.h5'
+model_file = './SavedModels/model05092020-214508.h5'
 model = load_model(model_file)
 
-mapping_file = './SavedMappings/mapping04092020-133048.pkl'
+mapping_file = './SavedMappings/mapping05092020-214508.pkl'
 mapping = load(open(mapping_file, 'rb'))
 
 
@@ -21,7 +22,7 @@ def generate_seq(model, mapping, seq_length, seed_text, n_chars):
         encoded.shape
 
         # Predict character
-        yhat = model.predict_classes(encoded, verbose=0)
+        yhat = np.argmax(model.predict(encoded), axis=-1)
         out_char = ''
         for char, index in mapping.items():
             if index == yhat:
@@ -36,4 +37,4 @@ def generate_seq(model, mapping, seq_length, seed_text, n_chars):
     return in_text
 
 
-print(generate_seq(model, mapping, 12, 'The Test ', 300))
+print(generate_seq(model, mapping, 25, "Generated Cocktail: ", 300))

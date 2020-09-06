@@ -35,9 +35,9 @@ y = to_categorical(y, num_classes=vocab_size)
 def define_model(X):
     model = Sequential()
 
-    model.add(LSTM(75, input_shape=(X.shape[1], X.shape[2])))
+    model.add(LSTM(128, input_shape=(X.shape[1], X.shape[2])))
     model.add(RepeatVector(3))
-    model.add(LSTM(75))
+    model.add(LSTM(128))
     model.add(Dense(vocab_size, activation='softmax'))
 
     model.compile(loss='categorical_crossentropy', optimizer='adam')

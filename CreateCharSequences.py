@@ -1,3 +1,6 @@
+import random
+
+
 def load_doc(filename):
     file = open(filename, 'r')
     text = file.read()
@@ -14,7 +17,7 @@ recipes = raw_text.split('_')
 print('{} Recipes in corpus'.format(len(recipes)))
 
 # Shuffle recipes for added randomness
-recipes = recipes.shuffle()
+random.shuffle(recipes)
 # Rejoin list into one long string
 recipes = '_'.join(recipes)
 
@@ -23,7 +26,7 @@ tokens = recipes.split()
 # Rejoin all recipes into one long string
 raw_text = ' '.join(tokens)
 
-length = 12
+length = 25
 sequences = list()
 
 for i in range(length, len(raw_text)):
