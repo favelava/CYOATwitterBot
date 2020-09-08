@@ -4,10 +4,10 @@ from keras.utils import to_categorical
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
-model_file = './SavedModels/model05092020-214508.h5'
+model_file = './SavedModels/model08092020-101448.h5'
 model = load_model(model_file)
 
-mapping_file = './SavedMappings/mapping05092020-214508.pkl'
+mapping_file = './SavedMappings/mapping08092020-101448.pkl'
 mapping = load(open(mapping_file, 'rb'))
 
 
@@ -37,4 +37,4 @@ def generate_seq(model, mapping, seq_length, seed_text, n_chars):
     return in_text
 
 
-print(generate_seq(model, mapping, 25, "Generated Cocktail: ", 300))
+print(generate_seq(model, mapping, 25, "Favelava ", 300))
