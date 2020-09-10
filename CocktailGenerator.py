@@ -4,10 +4,12 @@ from keras.utils import to_categorical
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
-model_file = './SavedModels/model08092020-101448.h5'
+# Load model of interest. ModelNotes.txt is in SavedModels for reference
+model_file = './SavedModels/model10092020-192434.h5'
 model = load_model(model_file)
 
-mapping_file = './SavedMappings/mapping08092020-101448.pkl'
+# Load mapping corresponding to model
+mapping_file = './SavedMappings/mapping10092020-192434.pkl'
 mapping = load(open(mapping_file, 'rb'))
 
 
@@ -37,4 +39,4 @@ def generate_seq(model, mapping, seq_length, seed_text, n_chars):
     return in_text
 
 
-print(generate_seq(model, mapping, 25, "Favelava ", 300))
+print(generate_seq(model, mapping, 25, "Paul ", 300))

@@ -8,6 +8,7 @@ from keras.models import Sequential
 from keras.layers import RepeatVector
 from keras.layers import LSTM
 from keras.layers import Dense
+from keras.layers import Dropout
 
 in_filename = 'char_sequences.txt'
 raw_text = load_doc(in_filename)
@@ -36,8 +37,9 @@ def define_model(X):
     model = Sequential()
 
     model.add(LSTM(128, input_shape=(X.shape[1], X.shape[2])))
-    model.add(RepeatVector(3))
+    model.add(RepeatVector(1))
     model.add(LSTM(128))
+    model.add(Dense(128, activation='linear'))
     model.add(Dense(vocab_size, activation='softmax'))
 
     model.compile(loss='categorical_crossentropy', optimizer='adam')
@@ -48,7 +50,9 @@ def define_model(X):
 model = define_model(X)
 model.fit(X, y, epochs=100, verbose=2)
 
+# Take current date and time to label model and mapping file
 time = datetime.now().strftime('%d%m%Y-%H%M%S')
 
+# Model and mapping file saved with DDMMYY-HHMMSS label
 model.save('./SavedModels/model{}.h5'.format(time))
 dump(mapping, open('./SavedMappings/mapping{}.pkl'.format(time), 'wb'))

@@ -1,0 +1,252 @@
+Notes Explaining the differences between Saved Models
+---------------------------------------------------------
+model10092020-095254.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.3169
+
+Input: char_sequences.txt
+LSTM: 256 Nodes
+Dropout: 0.5 Dropout Rate
+RepeatVector: Repeat 3 times to make 3D input for the LSTM
+LSTM: 256 Nodes
+Dropout: 0.5 Dropout Rate
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Very partial to creme de cacao and heavy cream
+Tends to end early
+Tequila Sunrise outputs multiple pinches of celery salt
+Not good drinks, not very funny (Tequila Sunrise was pretty amusing tho)
+---------------------------------------------------------
+model10092020-103346.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.5574
+
+Input: char_sequences.txt
+LSTM: 256 Nodes
+Dropout: 0.75 Dropout Rate
+RepeatVector: Repeat 3 times to make 3D input for the LSTM
+LSTM: 256 Nodes
+Dropout: 0.75 Dropout Rate
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Loves lemon juice
+Will pour you a cup of lemon juice
+Very bad lol
+---------------------------------------------------------
+model10092020-110056.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1150
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 3 times to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Occasionally throws out nonsense ingredients
+Occasionally gets stuck in lemon-lime loop
+Actually decent-sounding cocktails
+Shows Promise
+---------------------------------------------------------
+model10092020-112930.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.3597
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+Dense: 30 Node Bottleneck
+RepeatVector: Repeat 3 times to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Creme de cacao/creme de menthe loop
+Nothing special
+---------------------------------------------------------
+model10092020-120640.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.3275
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+Dense: 5 Node Bottleneck
+RepeatVector: Repeat 3 times to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Gets caught in lime juice loop
+Awful, do not use
+---------------------------------------------------------
+model10092020-123659.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1271
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 2 times to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Occasional nonsense ingredients
+Cocktails look good
+Shows promise
+Has a default cocktail (which doesn't look bad)
+---------------------------------------------------------
+model10092020-130828.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1238
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 1 time to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Occasional nonsense ingredients
+Some recipes are really out there, but understandable
+Decent overall
+---------------------------------------------------------
+model10092020-134420.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1157
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 4 times to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Continues the lemon-lime loop
+---------------------------------------------------------
+model10092020-142118.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 1 time to make 3D input for the LSTM
+LSTM: 128 Nodes, Linear activation
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Changing second LSTM to Linear activation from default (tanh) prevents loops
+Definitely makes cocktails
+Rare nonsense ingredients
+---------------------------------------------------------
+model10092020-145702.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1074
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 2 times to make 3D input for the LSTM
+LSTM: 128 Nodes, Linear activation
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Very rare nonsense ingredients
+Makes cocktails
+Very much in the right direction
+---------------------------------------------------------
+model10092020-154938.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1237
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 3 times to make 3D input for the LSTM
+LSTM: 128 Nodes, Linear activation
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Unremarkable. Mix of cocktails and undrinkable mixes
+---------------------------------------------------------
+model10092020-182333.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1254
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 3 times to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: 128 Nodes, Linear activation
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Falls into lime-orange loop
+---------------------------------------------------------
+model10092020-184837.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1254
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 2 times to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: 128 Nodes, Linear activation
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Appends long list of syrups and juices to end of cocktails
+---------------------------------------------------------
+model10092020-192434.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1267
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 1 time to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: 128 Nodes, Linear activation
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:

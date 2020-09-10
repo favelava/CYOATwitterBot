@@ -1,4 +1,4 @@
-import random
+from random import shuffle
 
 
 def load_doc(filename):
@@ -8,6 +8,7 @@ def load_doc(filename):
     return text
 
 
+# Path to desired recipe list
 path = './CocktailRecipes/AllLiquors.txt'
 
 raw_text = load_doc(path)
@@ -16,12 +17,13 @@ raw_text = load_doc(path)
 recipes = raw_text.split('_')
 print('{} Recipes in corpus'.format(len(recipes)))
 
-# Shuffle recipes for added randomness
-random.shuffle(recipes)
-# Rejoin list into one long string
+# Shuffle recipes twice for added randomness
+shuffle(recipes)
+shuffle(recipes)
+# Rejoin recipes into one long string, separated by end character '_'
 recipes = '_'.join(recipes)
 
-# Seperate recipe string into words
+# Seperate recipe string into words, removing newline characters
 tokens = recipes.split()
 # Rejoin all recipes into one long string
 raw_text = ' '.join(tokens)
