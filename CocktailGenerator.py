@@ -5,11 +5,11 @@ from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
 # Load model of interest. ModelNotes.txt is in SavedModels for reference
-model_file = './SavedModels/model10092020-192434.h5'
+model_file = './SavedModels/model10092020-215724.h5'
 model = load_model(model_file)
 
 # Load mapping corresponding to model
-mapping_file = './SavedMappings/mapping10092020-192434.pkl'
+mapping_file = './SavedMappings/mapping10092020-215724.pkl'
 mapping = load(open(mapping_file, 'rb'))
 
 
@@ -39,4 +39,4 @@ def generate_seq(model, mapping, seq_length, seed_text, n_chars):
     return in_text
 
 
-print(generate_seq(model, mapping, 25, "Paul ", 300))
+print(generate_seq(model, mapping, 25, "River ", 300))

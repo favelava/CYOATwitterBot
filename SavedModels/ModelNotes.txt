@@ -250,3 +250,42 @@ Dense: 128 Nodes, Linear activation
 Dense: Output layer of size = vocab_size (75 unique chars)
 
 Notes:
+Pretty good model
+---------------------------------------------------------
+model10092020-212112.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1429
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 1 time to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: 64 Nodes, Linear activation
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+Occasional random characters
+Very rare lemon, orange, simple syrup loop
+Decent Overall
+---------------------------------------------------------
+model10092020-215724.h5
+
+Epochs: 100
+Sequences: 71952 of length 25 (chars)
+Recipes: 661
+Final Loss: 0.1429
+
+Input: char_sequences.txt
+LSTM: 128 Nodes
+RepeatVector: Repeat 2 times to make 3D input for the LSTM
+LSTM: 128 Nodes
+Dense: 64 Nodes, Linear activation
+Dense: Output layer of size = vocab_size (75 unique chars)
+
+Notes:
+This is a good model
+Occasional nonsense, but recognizable words
+The best so far

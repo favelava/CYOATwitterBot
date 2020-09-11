@@ -37,9 +37,9 @@ def define_model(X):
     model = Sequential()
 
     model.add(LSTM(128, input_shape=(X.shape[1], X.shape[2])))
-    model.add(RepeatVector(1))
+    model.add(RepeatVector(2))
     model.add(LSTM(128))
-    model.add(Dense(128, activation='linear'))
+    model.add(Dense(64, activation='linear'))
     model.add(Dense(vocab_size, activation='softmax'))
 
     model.compile(loss='categorical_crossentropy', optimizer='adam')
